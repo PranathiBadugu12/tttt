@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +12,7 @@ public class Main {
             arr[i] = soj.nextInt();
             res = res+arr[i];
         }
-        for(int i=0;i<n-1;i++){
+        for(int i=0;i<n;i++){
             System.out.print(res-arr[i]+" ");
             res = res - arr[i];
         }
